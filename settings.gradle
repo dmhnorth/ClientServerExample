@@ -1,0 +1,5 @@
+rootProject.name = 'ClientServerExample'
+include 'SparkServer'
+
+include 'ApacheClient'
+
