@@ -9,7 +9,7 @@ import static spark.Spark.*;
  *
  * type 'curl http://localhost:4567/hello' into terminal to test
  */
-public class HelloWorld {
+public class HelloWorldServer {
     public static void main(String[] args) {
 
         get("/hello", (Request req, Response res) -> {
