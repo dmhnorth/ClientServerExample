@@ -34,7 +34,7 @@ public class ApacheClientComplex {
             // 1. see if it connected worked by printing this to the log
             System.out.println(response.getStatusLine());
 
-            // TODO figure out how this part works
+            // TODO figure out how to get a complex object via http/if its possible
             // 2. use the response body to pull something out
             Person person = (Person) response.getEntity();
             System.out.println(person.getName());

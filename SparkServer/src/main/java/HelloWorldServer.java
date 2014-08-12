@@ -14,7 +14,7 @@ public class HelloWorldServer {
 
     public static void main(String[] args) {
 
-        person = new PersonImpl("Ian James");
+        person = new Person("Ian James");
 
         get("/hello", (Request req, Response res) -> {
             return "Hello World";
