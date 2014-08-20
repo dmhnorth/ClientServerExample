@@ -17,12 +17,12 @@ public class HelloWorldServer {
         person = new Person("Ian James");
 
         get("/hello", (Request req, Response res) -> {
-            return "Hello World";
+            return "You made a connection!";
         });
-
+/*
         get("/person", (Request req, Response res) -> {
             return person;
         });
-
+*/
     }
 }

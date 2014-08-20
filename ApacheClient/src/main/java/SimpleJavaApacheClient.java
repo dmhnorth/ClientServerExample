@@ -6,14 +6,14 @@ import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
 
-public class SimpleClient {
+public class SimpleJavaApacheClient {
 
     private String localAddress = "http://localhost:4567";
 
     public static void main(String[] args) {
-        SimpleClient simpleClient = new SimpleClient();
+        SimpleJavaApacheClient simpleJavaApacheClient = new SimpleJavaApacheClient();
 
-        simpleClient.launch();
+        simpleJavaApacheClient.launch();
     }
 
     private void launch() {
